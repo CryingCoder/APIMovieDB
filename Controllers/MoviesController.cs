@@ -72,7 +72,7 @@ namespace APIMovieDB.Controllers
 
 
 
-        [HttpGet("GetRandomMovieByQuantity/{quantity}")]
+        /*[HttpGet("GetRandomMovieByQuantity/{quantity}")]
         public async Task<ActionResult<Movie>> RandomQuantity(int quantity)
         {
             var rnd = new Random();            
@@ -85,7 +85,7 @@ namespace APIMovieDB.Controllers
                 return movies[id];
             }
             
-        }
+        }*/
 
 
 
