@@ -50,7 +50,7 @@ namespace APIMovieDB.Controllers
 
 
         //GET: api/Movies/GetRandomMovie
-        [HttpGet("GetRandomMovie")]
+        [HttpGet("RandomMovie")]
         public async Task<ActionResult<Movie>> RandomMovie()
         {
 
@@ -59,7 +59,7 @@ namespace APIMovieDB.Controllers
         }
 
         //GET: api/Movies/GetRandomMovieByCategory
-        [HttpGet("GetRandomMovieByCategory/{category}")]
+        [HttpGet("RandomByCategory/{category}")]
         public async Task<ActionResult<Movie>> RandomCategory(string category)
         {
             var rnd = new Random();
